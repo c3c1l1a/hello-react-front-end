@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Name : Hello React Front End
+Quick example of a react app as a separate project consuming a rails endpoint I created. It fetches random message and 
+displays it in a compontent when generate quote button is clicked
 
-## Available Scripts
+## Link to backend made with rails
+[hello-react-back-end](https://github.com/c3c1l1a/hello-rails-back-end)
 
-In the project directory, you can run:
 
-### `npm start`
+## Built With
+> React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo (Coming soon)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is open source and you are free take modify and do with as you wish. To get a local copy up and running follow these simple example steps.
 
-### `npm run build`
+### Prerequisites ♻️
+- Any modern browser.
+- A local version control like git installed on your computer
+- Code editor (Visual studio code, sublime text, notepad++, ...) installed on your computer;
+- Knowledge of  basic of HTML and CSS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Download 🎰
+-  Click the this [link](https://github.com/c3c1l1a/Math-Magician.git) to clone down the source code or download it as a [zip file](https://github.com/c3c1l1a/Math-Magician/archive/refs/heads/dev.zip)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Install 
+- Once you have the code navigate into the root folder and run `npm install` to get all dependecies required to run Unit tests, linters checks and set up webpack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Run Unit tests
+- Use the `npm test` command to run all the unit test
 
-### `npm run eject`
+### Run webpack live server
+- use `npm start` to open the app with webpacks live server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Build for deployment
+- use `npm run build` to build files for deployment and distribution
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Run code linters 🧪
+> Run the commands below in the terminal or `git bash`.
+- `npx hint .` : for the `html` codebase and use of best practices.
+- `npx stylelint "**/*.{css,scss}"` :  for the `css` codebase and use of best practices. you can add 
+- `npx eslint .` :  for the `JavaScript` codebase and use of best practices.
+-  > Note that you can add `--fix` keyword to the command for `Css` and/or `JavaScript` to make sure that you avoid all errors comming from your `code editor`
+- To start webpack server run `npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+👤 **Cecilia Mukima**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- GitHub: [@c3c1l1a](https://github.com/c3c1l1a/)
+- Twitter: [@cMukima](https://twitter.com/CMukima)
+- LinkedIn: [cecilia-wangui-mukima](https://linkedin.com/in/linkedinhandle)
+- Profile [c3cl1ia.github.io](https://c3c1l1a.github.io)
+![](https://github-readme-stats.vercel.app/api?username=c3c1l1a&count_private=true&theme=dark&show_icons=true)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to check the [issues page](../../issues/).
 
-### Analyzing the Bundle Size
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Give a ⭐️ if you like this project!
 
-### Making a Progressive Web App
+## Acknowledgments
+- Microverse
+- IHat tip to anyone whose code was used for inspiration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://spdx.org/licenses/MIT.html) licensed.
