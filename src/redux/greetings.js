@@ -19,6 +19,7 @@ const messagesSlice = createSlice({
 	reducers: {},
 	extraReducers: {
 		[fetchAllMessages.fulfilled]: (state, action) => {
+			console.log(state);
 			return action.payload.message
 		}
 	}
